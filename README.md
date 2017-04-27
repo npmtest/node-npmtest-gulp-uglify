@@ -1,6 +1,6 @@
 # npmtest-gulp-uglify
 
-#### test coverage for  [gulp-uglify (v2.1.2)](https://github.com/terinjokes/gulp-uglify/)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-uglify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-uglify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-uglify.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-uglify)
+#### basic test coverage for  [gulp-uglify (v2.1.2)](https://github.com/terinjokes/gulp-uglify/)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-uglify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-uglify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-uglify.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-uglify)
 
 #### Minify files with UglifyJS.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-uglify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-uglify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-uglify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-uglify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-uglify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-uglify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-uglify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-uglify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-uglify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-uglify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-uglify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-uglify/build/coverage.html/index.html)
 
@@ -137,7 +137,8 @@
         "lint": "eslint *.js lib test",
         "test": "mocha --require intelli-espower-loader"
     },
-    "version": "2.1.2"
+    "version": "2.1.2",
+    "bin": {}
 }
 ```
 
